@@ -1,0 +1,21 @@
+/* ---------------------------------
+ *            Page Footer
+ * --------------------------------- */
+footer.footer
+    background-color: #00BFFF;
+    .level-start
+        +mobile()
+            text-align: center
+
+    .level-end
+        .field
+            flex-wrap: wrap
+            align-items: center
+
+            +mobile()
+                justify-content: center
+                margin-top: 1rem
+
+.footer-logo
+    img
+        max-height: $logo-height
